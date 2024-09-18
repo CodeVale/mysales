@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    min-height: 180vh;
+    justify-content: center;
+}
+.tb{
+    display: flex;
+    position: absolute;
+    justify-items: center;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    height: 70px;
+    border: 2px solid;
+    top: 0;
+    gap: 20px;
+    background-color: black;
+    text-decoration: none;
+}
+.tb .texts{
+    font-family: "Permanent Marker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-size: 15px;
+}
+h1:hover{
+    scale: 1.4;
+    transform: translateY(0);
+    transform: translateX(0);
+}
+h4{
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    left: 0;
+    color: white;
+    top: 0;
+}
+.bb{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    bottom: -800px;
+   background-color: black;
+   width: 100%;
+   height: 300px;
+   color: white;
+   font-size: 10px; 
+   row-gap: 5px;
+}
+.bb .info{
+    display: flex;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    width: 200px;
+}
+.bb .info-2{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    width: 200px;
+}
+.all-content{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+.content{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid;
+    top: 100px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.content .item-img{
+    width: 150px;
+    height: 200px;
+}
